@@ -1,4 +1,4 @@
-<html> 
+<html>
 <head> 
     <title>X3D Seismology</title>
     <link rel="stylesheet" type="text/css"
@@ -15,28 +15,72 @@
     body
     {
         font-family: 'Ubuntu', serif;
-        color: blue;
-        background-color:black;
+        background-color: white;
+    }
+    .header
+    {
+        margin:auto;
+        width:800px;
+        color: black;
+        font-size: 15pt;
+        background-color:#E0E6F8;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+
+        -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+    }
+    .column
+    {
+        margin:auto;
+        width:800px;
+        color: black;
+        font-size:12pt;
+        background-color:#E0E6F8;
+        margin-top:40px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+
+        -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
     }
     </style>
 </head> 
 
 <body>
-    <h1>
-        Interactive 3D applets related to seismology
-    </h1>
+    <div class="header">
+        <h1>
+            Interactive 3D seismology scenes
+        </h1>
+        <p>
+        The following examples show some interactive 3d scenes related to
+        seismology. They make use of the X3Dom framework that allows to display
+        3d scenes that are defined as .x3d files in the browser using WebGL.
+        </p>
+    </div>
 
-    <p>
-    The following 3d animations show some interactive 3d scenes that are
-    related to seismology. They are based on the x3d standard. To make them
-    work, you might have to enable some security settings.
-    </p>
-    <div>
-       <a href="moment_tensor.html">
-             Moment Tensor X3D example
-       </a><br/>
-       <a href="paths.html">
-             Ray paths X3D example
-       </a>
+    <div class="column">
+
+      <div class="entry">
+          <h1>Example 1: Earthquake Moment Tensors</h1>
+         <a href="moment_tensor.html">
+               Moment Tensor (double couple)
+         </a>
+         <h1>Example 2: Ray paths</h1>
+         <a href="paths.html">
+               Pdiff ray paths
+         </a>
+      </div>
+
     </div>
 </body>
