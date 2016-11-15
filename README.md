@@ -13,6 +13,7 @@
 
 
 ## HTML TEMPLATE
+```
 <html> 
 <head> 
     <title>Obspy Moment Tensor</title>		
@@ -76,4 +77,5 @@
       </scene>
     </X3D>
 </body> 
-</html>      
+</html>
+```
