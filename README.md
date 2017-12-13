@@ -6,9 +6,9 @@
 2. copy the x3d content into the HTML TEMPLATE that is attached at the bottom
    of this text file
 3. add true closure nodes, as in the HTML TEMPLATE. E.g. 
-   <DirectionalLight ... on="true"/>
+   `<DirectionalLight ... on="true"/>`
   becomes:
-   <DirectionalLight ... on="true"></DirectionalLight>
+   `<DirectionalLight ... on="true"></DirectionalLight>`
   This seems to be a major issue with many browsers.
 
 
