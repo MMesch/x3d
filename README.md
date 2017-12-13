@@ -10,6 +10,7 @@
   becomes:
    `<DirectionalLight ... on="true"></DirectionalLight>`
   This seems to be a major issue with many browsers.
+4. another point is to check that the order of the x3d elements is the same as below
 
 
 ## HTML TEMPLATE
